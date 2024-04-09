@@ -1,0 +1,44 @@
+
+
+A Socket is an endpoint in a network comunication system;
+  -Allow the data to be sent.
+  -Allow the date to be received 
+  -Facilitate the connection between the client and the server 
+  -Enable the server to handle multiple clients connections similtaneously
+
+Http: a protocol that has been used when data is sent or received through the sockets
+
+TCP: a protocol that established a connection between the sender and the receiver and ensure the data 
+    once it arrives is complete in order and error free, this connection is established using a handshake
+    process in three steps:
+    SYNC: here the client sends a packet with the SN synchronized flag set to the server 
+    SYNC-ACK: ther server responds with this acknowledge packet to the client
+    ACK: the client send an acknowledge packaet to the sercer and here the handshake is complete
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1
